@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "textlintrule"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "scripts": {
+    "test": "textlint-scripts test",
+    "build": "textlint-scripts build",
+    "prepare": "npm run --if-present build"
+  },
+  "devDependencies": {
+    "textlint-scripts": "^1.2.2"
+  },
+  "name": "textlint-rule-jis2004",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lostandfound/textlint-rule-jis2004.git"
+  },
+  "author": "Hiroshi Takase",
+  "license": "MIT",
+  "description": "Report if character out of JIS X 0213:20004 is found."
+}
