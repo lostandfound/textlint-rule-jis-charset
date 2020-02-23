@@ -16,15 +16,15 @@
   "devDependencies": {
     "textlint-scripts": "^1.2.2"
   },
-  "name": "textlint-rule-jis2004",
+  "name": "textlint-rule-jis-charset",
   "directories": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lostandfound/textlint-rule-jis2004.git"
+    "url": "git+https://github.com/lostandfound/textlint-rule-jis-charset.git"
   },
   "author": "Hiroshi Takase",
   "license": "MIT",
-  "description": "Report if character out of JIS X 0213:20004 is found."
+  "description": "Report if character out of JIS X 0213:2004 is found."
 }

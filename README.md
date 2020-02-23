@@ -1,6 +1,6 @@
-# textlint-rule-jis2004
+# textlint-rule-jis-charset
 
-Report if character out of JIS X 0213:20004 is found.
+Report if character out of JIS X 0213:2004 is found.
 
 文章の中でJIS X 0213:2004（JIS2004）範囲外の文字が使われていると検出します。検出された文字は一部の電子書籍のリーディングシステムで表示ができないため注意が必要です。
 
@@ -14,7 +14,7 @@ Thanks:
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install textlint-rule-jis2004
+    npm install textlint-rule-jis-charset
 
 ## Usage
 
@@ -23,7 +23,7 @@ Via `.textlintrc`(Recommended)
 ```json
 {
     "rules": {
-        "jis2004": true
+        "jis-charset": true
     }
 }
 ```
@@ -31,7 +31,7 @@ Via `.textlintrc`(Recommended)
 Via CLI
 
 ```
-textlint --rule jis2004 README.md
+textlint --rule jis-charset README.md
 ```
 
 ### Build

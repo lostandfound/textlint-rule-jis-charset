@@ -15,21 +15,21 @@ tester.run("rule", rule, {
             text: "髙",
             errors: [
                 {
-                    message: "「髙」はJIS2004範囲外の文字です。",
+                    message: "「髙」はJIS X 2013範囲外の文字です。",
                     line: 1,
                     column: 1
                 }
             ]
         },
         // multiple match
-        // JIS2004範囲外文字を適当に100文字
+        // JIS X 2013範囲外文字を適当に100文字
         {
             text: `㐀㐁㐅㐌㐖㐜㐡㐤㐧㐨㐩㐪㐭㐯㐰㐱㐲㐳㐴㐶㐸㐹㐺㐻㐼㑁㑂㑃㑄㑅㑆㑉㑊㑋㑌㑍㑎㑐㑑㑒㑓㑗㑘㑙㑚㑛㑜㑞㑟㑣㑤㑥㑦㑧㑮㑯㑱㑳㑴㑵㑶㑷㑸㑹㑻㑼㑽㑾㑿㒀㒁㒂㒃㒄㒅㒆㒇㒈㒉㒊㒋㒌㒍㒎㒑㒓㒔㒕㒖㒙㒚㒛㒜㒝㒞㒟㒠㒡㒤㒥`,
             errors: [
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐀」はJIS2004範囲外の文字です。",
+                    "message": "「㐀」はJIS X 2013範囲外の文字です。",
                     "index": 0,
                     "line": 1,
                     "column": 1,
@@ -38,7 +38,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐁」はJIS2004範囲外の文字です。",
+                    "message": "「㐁」はJIS X 2013範囲外の文字です。",
                     "index": 1,
                     "line": 1,
                     "column": 2,
@@ -47,7 +47,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐅」はJIS2004範囲外の文字です。",
+                    "message": "「㐅」はJIS X 2013範囲外の文字です。",
                     "index": 2,
                     "line": 1,
                     "column": 3,
@@ -56,7 +56,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐌」はJIS2004範囲外の文字です。",
+                    "message": "「㐌」はJIS X 2013範囲外の文字です。",
                     "index": 3,
                     "line": 1,
                     "column": 4,
@@ -65,7 +65,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐖」はJIS2004範囲外の文字です。",
+                    "message": "「㐖」はJIS X 2013範囲外の文字です。",
                     "index": 4,
                     "line": 1,
                     "column": 5,
@@ -74,7 +74,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐜」はJIS2004範囲外の文字です。",
+                    "message": "「㐜」はJIS X 2013範囲外の文字です。",
                     "index": 5,
                     "line": 1,
                     "column": 6,
@@ -83,7 +83,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐡」はJIS2004範囲外の文字です。",
+                    "message": "「㐡」はJIS X 2013範囲外の文字です。",
                     "index": 6,
                     "line": 1,
                     "column": 7,
@@ -92,7 +92,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐤」はJIS2004範囲外の文字です。",
+                    "message": "「㐤」はJIS X 2013範囲外の文字です。",
                     "index": 7,
                     "line": 1,
                     "column": 8,
@@ -101,7 +101,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐧」はJIS2004範囲外の文字です。",
+                    "message": "「㐧」はJIS X 2013範囲外の文字です。",
                     "index": 8,
                     "line": 1,
                     "column": 9,
@@ -110,7 +110,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐨」はJIS2004範囲外の文字です。",
+                    "message": "「㐨」はJIS X 2013範囲外の文字です。",
                     "index": 9,
                     "line": 1,
                     "column": 10,
@@ -119,7 +119,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐩」はJIS2004範囲外の文字です。",
+                    "message": "「㐩」はJIS X 2013範囲外の文字です。",
                     "index": 10,
                     "line": 1,
                     "column": 11,
@@ -128,7 +128,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐪」はJIS2004範囲外の文字です。",
+                    "message": "「㐪」はJIS X 2013範囲外の文字です。",
                     "index": 11,
                     "line": 1,
                     "column": 12,
@@ -137,7 +137,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐭」はJIS2004範囲外の文字です。",
+                    "message": "「㐭」はJIS X 2013範囲外の文字です。",
                     "index": 12,
                     "line": 1,
                     "column": 13,
@@ -146,7 +146,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐯」はJIS2004範囲外の文字です。",
+                    "message": "「㐯」はJIS X 2013範囲外の文字です。",
                     "index": 13,
                     "line": 1,
                     "column": 14,
@@ -155,7 +155,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐰」はJIS2004範囲外の文字です。",
+                    "message": "「㐰」はJIS X 2013範囲外の文字です。",
                     "index": 14,
                     "line": 1,
                     "column": 15,
@@ -164,7 +164,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐱」はJIS2004範囲外の文字です。",
+                    "message": "「㐱」はJIS X 2013範囲外の文字です。",
                     "index": 15,
                     "line": 1,
                     "column": 16,
@@ -173,7 +173,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐲」はJIS2004範囲外の文字です。",
+                    "message": "「㐲」はJIS X 2013範囲外の文字です。",
                     "index": 16,
                     "line": 1,
                     "column": 17,
@@ -182,7 +182,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐳」はJIS2004範囲外の文字です。",
+                    "message": "「㐳」はJIS X 2013範囲外の文字です。",
                     "index": 17,
                     "line": 1,
                     "column": 18,
@@ -191,7 +191,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐴」はJIS2004範囲外の文字です。",
+                    "message": "「㐴」はJIS X 2013範囲外の文字です。",
                     "index": 18,
                     "line": 1,
                     "column": 19,
@@ -200,7 +200,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐶」はJIS2004範囲外の文字です。",
+                    "message": "「㐶」はJIS X 2013範囲外の文字です。",
                     "index": 19,
                     "line": 1,
                     "column": 20,
@@ -209,7 +209,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐸」はJIS2004範囲外の文字です。",
+                    "message": "「㐸」はJIS X 2013範囲外の文字です。",
                     "index": 20,
                     "line": 1,
                     "column": 21,
@@ -218,7 +218,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐹」はJIS2004範囲外の文字です。",
+                    "message": "「㐹」はJIS X 2013範囲外の文字です。",
                     "index": 21,
                     "line": 1,
                     "column": 22,
@@ -227,7 +227,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐺」はJIS2004範囲外の文字です。",
+                    "message": "「㐺」はJIS X 2013範囲外の文字です。",
                     "index": 22,
                     "line": 1,
                     "column": 23,
@@ -236,7 +236,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐻」はJIS2004範囲外の文字です。",
+                    "message": "「㐻」はJIS X 2013範囲外の文字です。",
                     "index": 23,
                     "line": 1,
                     "column": 24,
@@ -245,7 +245,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㐼」はJIS2004範囲外の文字です。",
+                    "message": "「㐼」はJIS X 2013範囲外の文字です。",
                     "index": 24,
                     "line": 1,
                     "column": 25,
@@ -254,7 +254,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑁」はJIS2004範囲外の文字です。",
+                    "message": "「㑁」はJIS X 2013範囲外の文字です。",
                     "index": 25,
                     "line": 1,
                     "column": 26,
@@ -263,7 +263,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑂」はJIS2004範囲外の文字です。",
+                    "message": "「㑂」はJIS X 2013範囲外の文字です。",
                     "index": 26,
                     "line": 1,
                     "column": 27,
@@ -272,7 +272,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑃」はJIS2004範囲外の文字です。",
+                    "message": "「㑃」はJIS X 2013範囲外の文字です。",
                     "index": 27,
                     "line": 1,
                     "column": 28,
@@ -281,7 +281,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑄」はJIS2004範囲外の文字です。",
+                    "message": "「㑄」はJIS X 2013範囲外の文字です。",
                     "index": 28,
                     "line": 1,
                     "column": 29,
@@ -290,7 +290,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑅」はJIS2004範囲外の文字です。",
+                    "message": "「㑅」はJIS X 2013範囲外の文字です。",
                     "index": 29,
                     "line": 1,
                     "column": 30,
@@ -299,7 +299,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑆」はJIS2004範囲外の文字です。",
+                    "message": "「㑆」はJIS X 2013範囲外の文字です。",
                     "index": 30,
                     "line": 1,
                     "column": 31,
@@ -308,7 +308,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑉」はJIS2004範囲外の文字です。",
+                    "message": "「㑉」はJIS X 2013範囲外の文字です。",
                     "index": 31,
                     "line": 1,
                     "column": 32,
@@ -317,7 +317,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑊」はJIS2004範囲外の文字です。",
+                    "message": "「㑊」はJIS X 2013範囲外の文字です。",
                     "index": 32,
                     "line": 1,
                     "column": 33,
@@ -326,7 +326,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑋」はJIS2004範囲外の文字です。",
+                    "message": "「㑋」はJIS X 2013範囲外の文字です。",
                     "index": 33,
                     "line": 1,
                     "column": 34,
@@ -335,7 +335,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑌」はJIS2004範囲外の文字です。",
+                    "message": "「㑌」はJIS X 2013範囲外の文字です。",
                     "index": 34,
                     "line": 1,
                     "column": 35,
@@ -344,7 +344,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑍」はJIS2004範囲外の文字です。",
+                    "message": "「㑍」はJIS X 2013範囲外の文字です。",
                     "index": 35,
                     "line": 1,
                     "column": 36,
@@ -353,7 +353,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑎」はJIS2004範囲外の文字です。",
+                    "message": "「㑎」はJIS X 2013範囲外の文字です。",
                     "index": 36,
                     "line": 1,
                     "column": 37,
@@ -362,7 +362,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑐」はJIS2004範囲外の文字です。",
+                    "message": "「㑐」はJIS X 2013範囲外の文字です。",
                     "index": 37,
                     "line": 1,
                     "column": 38,
@@ -371,7 +371,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑑」はJIS2004範囲外の文字です。",
+                    "message": "「㑑」はJIS X 2013範囲外の文字です。",
                     "index": 38,
                     "line": 1,
                     "column": 39,
@@ -380,7 +380,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑒」はJIS2004範囲外の文字です。",
+                    "message": "「㑒」はJIS X 2013範囲外の文字です。",
                     "index": 39,
                     "line": 1,
                     "column": 40,
@@ -389,7 +389,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑓」はJIS2004範囲外の文字です。",
+                    "message": "「㑓」はJIS X 2013範囲外の文字です。",
                     "index": 40,
                     "line": 1,
                     "column": 41,
@@ -398,7 +398,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑗」はJIS2004範囲外の文字です。",
+                    "message": "「㑗」はJIS X 2013範囲外の文字です。",
                     "index": 41,
                     "line": 1,
                     "column": 42,
@@ -407,7 +407,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑘」はJIS2004範囲外の文字です。",
+                    "message": "「㑘」はJIS X 2013範囲外の文字です。",
                     "index": 42,
                     "line": 1,
                     "column": 43,
@@ -416,7 +416,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑙」はJIS2004範囲外の文字です。",
+                    "message": "「㑙」はJIS X 2013範囲外の文字です。",
                     "index": 43,
                     "line": 1,
                     "column": 44,
@@ -425,7 +425,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑚」はJIS2004範囲外の文字です。",
+                    "message": "「㑚」はJIS X 2013範囲外の文字です。",
                     "index": 44,
                     "line": 1,
                     "column": 45,
@@ -434,7 +434,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑛」はJIS2004範囲外の文字です。",
+                    "message": "「㑛」はJIS X 2013範囲外の文字です。",
                     "index": 45,
                     "line": 1,
                     "column": 46,
@@ -443,7 +443,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑜」はJIS2004範囲外の文字です。",
+                    "message": "「㑜」はJIS X 2013範囲外の文字です。",
                     "index": 46,
                     "line": 1,
                     "column": 47,
@@ -452,7 +452,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑞」はJIS2004範囲外の文字です。",
+                    "message": "「㑞」はJIS X 2013範囲外の文字です。",
                     "index": 47,
                     "line": 1,
                     "column": 48,
@@ -461,7 +461,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑟」はJIS2004範囲外の文字です。",
+                    "message": "「㑟」はJIS X 2013範囲外の文字です。",
                     "index": 48,
                     "line": 1,
                     "column": 49,
@@ -470,7 +470,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑣」はJIS2004範囲外の文字です。",
+                    "message": "「㑣」はJIS X 2013範囲外の文字です。",
                     "index": 49,
                     "line": 1,
                     "column": 50,
@@ -479,7 +479,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑤」はJIS2004範囲外の文字です。",
+                    "message": "「㑤」はJIS X 2013範囲外の文字です。",
                     "index": 50,
                     "line": 1,
                     "column": 51,
@@ -488,7 +488,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑥」はJIS2004範囲外の文字です。",
+                    "message": "「㑥」はJIS X 2013範囲外の文字です。",
                     "index": 51,
                     "line": 1,
                     "column": 52,
@@ -497,7 +497,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑦」はJIS2004範囲外の文字です。",
+                    "message": "「㑦」はJIS X 2013範囲外の文字です。",
                     "index": 52,
                     "line": 1,
                     "column": 53,
@@ -506,7 +506,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑧」はJIS2004範囲外の文字です。",
+                    "message": "「㑧」はJIS X 2013範囲外の文字です。",
                     "index": 53,
                     "line": 1,
                     "column": 54,
@@ -515,7 +515,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑮」はJIS2004範囲外の文字です。",
+                    "message": "「㑮」はJIS X 2013範囲外の文字です。",
                     "index": 54,
                     "line": 1,
                     "column": 55,
@@ -524,7 +524,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑯」はJIS2004範囲外の文字です。",
+                    "message": "「㑯」はJIS X 2013範囲外の文字です。",
                     "index": 55,
                     "line": 1,
                     "column": 56,
@@ -533,7 +533,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑱」はJIS2004範囲外の文字です。",
+                    "message": "「㑱」はJIS X 2013範囲外の文字です。",
                     "index": 56,
                     "line": 1,
                     "column": 57,
@@ -542,7 +542,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑳」はJIS2004範囲外の文字です。",
+                    "message": "「㑳」はJIS X 2013範囲外の文字です。",
                     "index": 57,
                     "line": 1,
                     "column": 58,
@@ -551,7 +551,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑴」はJIS2004範囲外の文字です。",
+                    "message": "「㑴」はJIS X 2013範囲外の文字です。",
                     "index": 58,
                     "line": 1,
                     "column": 59,
@@ -560,7 +560,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑵」はJIS2004範囲外の文字です。",
+                    "message": "「㑵」はJIS X 2013範囲外の文字です。",
                     "index": 59,
                     "line": 1,
                     "column": 60,
@@ -569,7 +569,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑶」はJIS2004範囲外の文字です。",
+                    "message": "「㑶」はJIS X 2013範囲外の文字です。",
                     "index": 60,
                     "line": 1,
                     "column": 61,
@@ -578,7 +578,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑷」はJIS2004範囲外の文字です。",
+                    "message": "「㑷」はJIS X 2013範囲外の文字です。",
                     "index": 61,
                     "line": 1,
                     "column": 62,
@@ -587,7 +587,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑸」はJIS2004範囲外の文字です。",
+                    "message": "「㑸」はJIS X 2013範囲外の文字です。",
                     "index": 62,
                     "line": 1,
                     "column": 63,
@@ -596,7 +596,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑹」はJIS2004範囲外の文字です。",
+                    "message": "「㑹」はJIS X 2013範囲外の文字です。",
                     "index": 63,
                     "line": 1,
                     "column": 64,
@@ -605,7 +605,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑻」はJIS2004範囲外の文字です。",
+                    "message": "「㑻」はJIS X 2013範囲外の文字です。",
                     "index": 64,
                     "line": 1,
                     "column": 65,
@@ -614,7 +614,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑼」はJIS2004範囲外の文字です。",
+                    "message": "「㑼」はJIS X 2013範囲外の文字です。",
                     "index": 65,
                     "line": 1,
                     "column": 66,
@@ -623,7 +623,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑽」はJIS2004範囲外の文字です。",
+                    "message": "「㑽」はJIS X 2013範囲外の文字です。",
                     "index": 66,
                     "line": 1,
                     "column": 67,
@@ -632,7 +632,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑾」はJIS2004範囲外の文字です。",
+                    "message": "「㑾」はJIS X 2013範囲外の文字です。",
                     "index": 67,
                     "line": 1,
                     "column": 68,
@@ -641,7 +641,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㑿」はJIS2004範囲外の文字です。",
+                    "message": "「㑿」はJIS X 2013範囲外の文字です。",
                     "index": 68,
                     "line": 1,
                     "column": 69,
@@ -650,7 +650,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒀」はJIS2004範囲外の文字です。",
+                    "message": "「㒀」はJIS X 2013範囲外の文字です。",
                     "index": 69,
                     "line": 1,
                     "column": 70,
@@ -659,7 +659,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒁」はJIS2004範囲外の文字です。",
+                    "message": "「㒁」はJIS X 2013範囲外の文字です。",
                     "index": 70,
                     "line": 1,
                     "column": 71,
@@ -668,7 +668,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒂」はJIS2004範囲外の文字です。",
+                    "message": "「㒂」はJIS X 2013範囲外の文字です。",
                     "index": 71,
                     "line": 1,
                     "column": 72,
@@ -677,7 +677,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒃」はJIS2004範囲外の文字です。",
+                    "message": "「㒃」はJIS X 2013範囲外の文字です。",
                     "index": 72,
                     "line": 1,
                     "column": 73,
@@ -686,7 +686,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒄」はJIS2004範囲外の文字です。",
+                    "message": "「㒄」はJIS X 2013範囲外の文字です。",
                     "index": 73,
                     "line": 1,
                     "column": 74,
@@ -695,7 +695,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒅」はJIS2004範囲外の文字です。",
+                    "message": "「㒅」はJIS X 2013範囲外の文字です。",
                     "index": 74,
                     "line": 1,
                     "column": 75,
@@ -704,7 +704,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒆」はJIS2004範囲外の文字です。",
+                    "message": "「㒆」はJIS X 2013範囲外の文字です。",
                     "index": 75,
                     "line": 1,
                     "column": 76,
@@ -713,7 +713,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒇」はJIS2004範囲外の文字です。",
+                    "message": "「㒇」はJIS X 2013範囲外の文字です。",
                     "index": 76,
                     "line": 1,
                     "column": 77,
@@ -722,7 +722,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒈」はJIS2004範囲外の文字です。",
+                    "message": "「㒈」はJIS X 2013範囲外の文字です。",
                     "index": 77,
                     "line": 1,
                     "column": 78,
@@ -731,7 +731,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒉」はJIS2004範囲外の文字です。",
+                    "message": "「㒉」はJIS X 2013範囲外の文字です。",
                     "index": 78,
                     "line": 1,
                     "column": 79,
@@ -740,7 +740,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒊」はJIS2004範囲外の文字です。",
+                    "message": "「㒊」はJIS X 2013範囲外の文字です。",
                     "index": 79,
                     "line": 1,
                     "column": 80,
@@ -749,7 +749,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒋」はJIS2004範囲外の文字です。",
+                    "message": "「㒋」はJIS X 2013範囲外の文字です。",
                     "index": 80,
                     "line": 1,
                     "column": 81,
@@ -758,7 +758,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒌」はJIS2004範囲外の文字です。",
+                    "message": "「㒌」はJIS X 2013範囲外の文字です。",
                     "index": 81,
                     "line": 1,
                     "column": 82,
@@ -767,7 +767,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒍」はJIS2004範囲外の文字です。",
+                    "message": "「㒍」はJIS X 2013範囲外の文字です。",
                     "index": 82,
                     "line": 1,
                     "column": 83,
@@ -776,7 +776,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒎」はJIS2004範囲外の文字です。",
+                    "message": "「㒎」はJIS X 2013範囲外の文字です。",
                     "index": 83,
                     "line": 1,
                     "column": 84,
@@ -785,7 +785,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒑」はJIS2004範囲外の文字です。",
+                    "message": "「㒑」はJIS X 2013範囲外の文字です。",
                     "index": 84,
                     "line": 1,
                     "column": 85,
@@ -794,7 +794,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒓」はJIS2004範囲外の文字です。",
+                    "message": "「㒓」はJIS X 2013範囲外の文字です。",
                     "index": 85,
                     "line": 1,
                     "column": 86,
@@ -803,7 +803,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒔」はJIS2004範囲外の文字です。",
+                    "message": "「㒔」はJIS X 2013範囲外の文字です。",
                     "index": 86,
                     "line": 1,
                     "column": 87,
@@ -812,7 +812,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒕」はJIS2004範囲外の文字です。",
+                    "message": "「㒕」はJIS X 2013範囲外の文字です。",
                     "index": 87,
                     "line": 1,
                     "column": 88,
@@ -821,7 +821,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒖」はJIS2004範囲外の文字です。",
+                    "message": "「㒖」はJIS X 2013範囲外の文字です。",
                     "index": 88,
                     "line": 1,
                     "column": 89,
@@ -830,7 +830,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒙」はJIS2004範囲外の文字です。",
+                    "message": "「㒙」はJIS X 2013範囲外の文字です。",
                     "index": 89,
                     "line": 1,
                     "column": 90,
@@ -839,7 +839,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒚」はJIS2004範囲外の文字です。",
+                    "message": "「㒚」はJIS X 2013範囲外の文字です。",
                     "index": 90,
                     "line": 1,
                     "column": 91,
@@ -848,7 +848,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒛」はJIS2004範囲外の文字です。",
+                    "message": "「㒛」はJIS X 2013範囲外の文字です。",
                     "index": 91,
                     "line": 1,
                     "column": 92,
@@ -857,7 +857,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒜」はJIS2004範囲外の文字です。",
+                    "message": "「㒜」はJIS X 2013範囲外の文字です。",
                     "index": 92,
                     "line": 1,
                     "column": 93,
@@ -866,7 +866,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒝」はJIS2004範囲外の文字です。",
+                    "message": "「㒝」はJIS X 2013範囲外の文字です。",
                     "index": 93,
                     "line": 1,
                     "column": 94,
@@ -875,7 +875,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒞」はJIS2004範囲外の文字です。",
+                    "message": "「㒞」はJIS X 2013範囲外の文字です。",
                     "index": 94,
                     "line": 1,
                     "column": 95,
@@ -884,7 +884,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒟」はJIS2004範囲外の文字です。",
+                    "message": "「㒟」はJIS X 2013範囲外の文字です。",
                     "index": 95,
                     "line": 1,
                     "column": 96,
@@ -893,7 +893,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒠」はJIS2004範囲外の文字です。",
+                    "message": "「㒠」はJIS X 2013範囲外の文字です。",
                     "index": 96,
                     "line": 1,
                     "column": 97,
@@ -902,7 +902,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒡」はJIS2004範囲外の文字です。",
+                    "message": "「㒡」はJIS X 2013範囲外の文字です。",
                     "index": 97,
                     "line": 1,
                     "column": 98,
@@ -911,7 +911,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒤」はJIS2004範囲外の文字です。",
+                    "message": "「㒤」はJIS X 2013範囲外の文字です。",
                     "index": 98,
                     "line": 1,
                     "column": 99,
@@ -920,7 +920,7 @@ tester.run("rule", rule, {
                 {
                     "type": "lint",
                     "ruleId": "rule",
-                    "message": "「㒥」はJIS2004範囲外の文字です。",
+                    "message": "「㒥」はJIS X 2013範囲外の文字です。",
                     "index": 99,
                     "line": 1,
                     "column": 100,

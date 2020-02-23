@@ -18,7 +18,7 @@ module.exports = function(context, options = {}) {
             found.forEach(function(kanji, i){
                 const idx = text.indexOf(found[i]);
 
-                const ruleError = new RuleError('「' + found[i] + "」はJIS2004範囲外の文字です。", {
+                const ruleError = new RuleError('「' + found[i] + "」はJIS X 2013範囲外の文字です。", {
                   index: idx
                   });
                 report(node, ruleError);
