@@ -7,7 +7,6 @@ module.exports = function(context, options = {}) {
     return {
         [Syntax.Str](node){ // "Str" node
             const text = getSource(node); // Get text
-            console.log(text);
 
             let found = text.match(regex);
 
