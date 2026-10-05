@@ -14,7 +14,7 @@
     "prepare": "npm run --if-present build"
   },
   "devDependencies": {
-    "textlint-scripts": "^1.4.2"
+    "textlint-scripts": "^15.8.0"
   },
   "name": "textlint-rule-jis-charset",
   "directories": {
