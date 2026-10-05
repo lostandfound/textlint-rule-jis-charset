@@ -28,6 +28,8 @@
   "license": "MIT",
   "description": "Report if character out of JIS X 0213:2004 is found.",
   "overrides": {
-    "glob": "^13.0.6"
+    "glob": "^13.0.6",
+    "diff": "^9.0.0",
+    "serialize-javascript": "^7.1.2"
   }
 }
